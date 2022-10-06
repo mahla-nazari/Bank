@@ -1,3 +1,37 @@
+#import sqlite3
+#conn = sqlite3.connect('customer.db')
+#c = conn.cursor()
+#c.execute("""create table bank_data_6(
+#username datatype,
+#age datatype,
+#fname datatype,
+#mname datatype,
+#lname datatype,
+#gender datatype,
+#phonenumber datatype,
+#email datatype,
+#ID datatype,
+#country datatype,
+#city datatype,
+#password datatype,
+#money datatype,
+#time datatype,
+#log_history datatype)""")
+
+
+#_________
+
+
+#import sqlite3
+#conn = sqlite3.connect('customer.db')
+#c = conn.cursor()
+#c.execute("""create table operator_accounts(
+#fname datatype,
+#lname datatype,
+#username datatype,
+#password datatype)""")
+
+
 
 # The Functions____________________________________________________
 def check_user(s):
